@@ -102,7 +102,7 @@ Berikut adalah contohnya :
 
 ![mambuat_tabel](img/tabel.png)
 
-Coding :
+Codingnya sebagai berikut :
 
 ```html
 <!DOCTYPE html>
