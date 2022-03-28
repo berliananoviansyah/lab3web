@@ -147,3 +147,10 @@ Codingnya sebagai berikut :
 </body>
 </html>
 ```
+
+## 5). Mengatur Margin dan Padding pada Tabel
+Pada bagian cellpading sebelumnya pada sub judul "Membuat Tabel" yang saya input adalah "4" dan cellspacing "0".
+Setelahnya saya akan mengubah cellpadding menjadi "8" dan cellspacing tetap pada "0"
+
+![mengatur_marging_pading](img/margin.png)
+
