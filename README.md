@@ -216,3 +216,28 @@ Berikut adalah contoh codingnya :
 
 Output :
 ![membuat_form](img/membuat_form.png)
+
+
+## 8). Menambahkan Style pada Form
+
+Berikut adalah contoh codingnya :
+```html
+  <style>
+        form p > label{
+            display: inline-block;
+            width: 100px;
+        }
+        form input[type="text"], form textarea{
+            border: 1px solid darkgray;
+        }
+        form input[type='submit']{
+            border: 1px solid deeppink;
+            color: lightcoral;
+            font-weight: bold;
+            padding: 5px 15px;
+        }
+    </style>
+```
+
+Dan hasil outpunta adalah sebagai berikut :
+![style_form](img/style_form.png)
