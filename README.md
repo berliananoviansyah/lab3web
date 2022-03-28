@@ -239,5 +239,31 @@ Berikut adalah contoh codingnya :
     </style>
 ```
 
-Dan hasil outpunta adalah sebagai berikut :
+Dan hasil outpunya adalah sebagai berikut :
 ![style_form](img/style_form2.png)
+
+
+# Pertanyaan dan Jawaban
+
+
+### 1). Buatlah form yang menampilkan Dropdown menu dan Listbox dengan multiple selection.
+
+Berikut adalah contoh Dropdown menu:
+
+![tampilan_dropdown_listbox](img/dropdown_listbox.png)
+
+
+Dengan contoh coding sebagai berikut :
+
+```html
+<p>
+                <label>Kecamatan</label>
+                <select name="kecamatan" id="kecamatan">
+                    <option value="Pilih Kecamatan Asal">--Pilih Kecamatan Asal--<option>
+                    <option value="Cikarang Utara">Cikarang Utara</option>
+                    <option value="Cikarang Barat">Ciakrang Barat</option>
+                    <option value="Cikarang Selatan">Cikarang Selatan</option>
+                    <option value="Cikarang Timur">Cikarang Timur</option>
+                    <option value="Washington">Washington</option>
+                </select>
+ </p>
