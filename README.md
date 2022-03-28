@@ -248,12 +248,12 @@ Dan hasil outpunya adalah sebagai berikut :
 
 ### 1). Buatlah form yang menampilkan Dropdown menu dan Listbox dengan multiple selection.
 
-Berikut adalah contoh Dropdown menu:
+Berikut adalah contoh **Dropdown** menu:
 
 ![tampilan_dropdown_listbox](img/dropdown_listbox.png)
 
 
-Dengan contoh coding sebagai berikut :
+Dengan contoh coding **dropdown mennu** sebagai berikut :
 
 ```html
 <p>
@@ -267,3 +267,22 @@ Dengan contoh coding sebagai berikut :
                     <option value="Washington">Washington</option>
                 </select>
  </p>
+```
+
+Dan berikut adalah input coding untuk **Listbox Multiple Selection** :
+
+```html
+ <h2>Listbox Multiple Selection</h2>
+            <label>Menu</label>
+            <select name="Menu" id="Menu" multiple size="6">
+                <option value="Rendang">Rendang</option>
+                <option value="Ayam Bakar">Ayam Bakar</option>
+                <option value="Pecel Lele">Pecel Lele</option>
+                <option value="Bebek Goreng">Bebek Goreng</option>
+                <option value="Sayur Nangka">Sayur Nangka</option>
+                <option value="Mi Goreng">Mi Goreng</option>
+            </select>
+```
+
+Berikut adalah outputnya :
+![Menambahkan_listbox_multiple_selection](img/listbox.png)
