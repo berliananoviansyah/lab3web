@@ -89,5 +89,61 @@ Inputannya adalah :
     </section>
 ```
 
-Dan outpot sebagai berikut :
+Dan output sebagai berikut :
+
 ![membuat_description_list](img/pic3.png)
+
+
+## 4). Membuat Tabel
+
+Tabel digunakan untuk menampilkan data yang terusun dalam bentuk kolom dan baris seperti laporan, pembukuan, dan sejenisnya pada halaman web.
+
+Berikut adalah contohnya :
+
+![mambuat_tabel](img/tabel.png)
+
+Coding :
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Lanjutan</title>
+</head>
+<body>
+    <header>
+        <h1>Membuat Tabel</h1>
+    </header>
+    <table border="1" cellpadding="4" cellspasing="0">
+    <thead>
+        <tr>
+            <th>No.</th>
+            <th>Fakultas</th>
+            <th>Program Studi</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>1.</td>
+            <td>Teknik</td>
+            <td>Teknin Informatika</td>
+        </tr>
+        <tr>
+            <td>2.</td>
+            <td>Teknik</td>
+            <td>Teknik Industri</td>
+        </tr>
+        <tr>
+            <td>3.</td>
+            <td>Teknik</td>
+            <td>Teknik Arsitektur</td>
+        </tr>
+    </tbody>
+    </table>
+</body>
+</html>
+```
