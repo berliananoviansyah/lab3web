@@ -68,6 +68,7 @@ Dan outputnya :
 
 ![membuat_unordered_list](img/pic2.png)
 
+
 ## 3). Membuat Description List
 
 Description lIst adalah jenis list yang ditunjukan untuk membuat struktur yang berisi deskripsi arau penjelasan dalam HTML.
@@ -92,6 +93,7 @@ Inputannya adalah :
 Dan output sebagai berikut :
 
 ![membuat_description_list](img/pic3.png)
+
 
 
 ## 4). Membuat Tabel
@@ -148,9 +150,69 @@ Codingnya sebagai berikut :
 </html>
 ```
 
+
 ## 5). Mengatur Margin dan Padding pada Tabel
+
 Pada bagian cellpading sebelumnya pada sub judul "Membuat Tabel" yang saya input adalah "4" dan cellspacing "0".
 Setelahnya saya akan mengubah cellpadding menjadi "8" dan cellspacing tetap pada "0"
 
 ![mengatur_marging_pading](img/margin.png)
 
+
+## 6). Menggabungkan Sel Data
+
+Output pada tampilan browsernya adalah sebagai berikut :
+
+![menggabungkan_sel_data](img/sel_data.png)
+
+Codingnya sama seperti pada sub judul "membuat tabel", dengan menambahkan perintah "rowspan" pada pengaturan tabel nomor "1."
+
+
+## 7). Membuat Form
+
+Untuk membuat form pada HTML kta dapat menggunakan tag form kemudian menambahkan "fieldset" dan "legend". Namun formalnya hanya form tabel dan input saja.
+
+
+Berikut adalah contoh codingnya :
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width= , initial-scale=1.0">
+    <title>HTML Lanjutan</title>
+</head>
+<body>
+    <header>
+        <h1>Membuat Form</h1>
+    </header>
+    <form action="proses.php" method="post">
+        <fieldset>
+            <legend>data Pelanggan</legend>
+            <p>
+                <label for="nama">Nama</label>
+                <input type="text" id="nama" name="nama">
+            </p>
+            <p>
+                <label for="alamat">Alamat</label>
+                <textarea name="alamat" id="alamat" cols="20" rows="3">            
+                </textarea>
+            </p>
+            <p>
+                <label for="jenis kelamin">Jenis Kelamin</label>
+                <input type="radio" name="kelamin" id="jk_l" value="L">
+                <label for="jk_l"> Laki-laki</label>
+                <input type="radio" name="kelamin" id="jk_p" value="P">
+                <label for="jk_p">Perempuan</label>
+            </p>
+            <p><input type="submit" value="Login"></p>
+        </fieldset>
+    </form>
+</body>
+</html>
+```
+
+Output :
+![membuat_form](img/membuat_form.png)
