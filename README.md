@@ -13,6 +13,7 @@ Ordered List adalah jenis list berurutan yang ditampilkan menggunakan anhka atau
 Biasa digunakan untuk menampilandaftar urut seperti pemenang lomba, ranking kelas dan urutan lain yang membutuhkan nomor.
 Pada contoh kali ini, saya akan membuat list mata kuliah.
 Hasil output yang didapatkan adalah sebagai berikut :
+
 ![membuat_ordered_list](img/pic1.png) 
 
 Dengan Inputan sebagai berikut :
