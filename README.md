@@ -240,4 +240,4 @@ Berikut adalah contoh codingnya :
 ```
 
 Dan hasil outpunta adalah sebagai berikut :
-![style_form](img/style_form2.png.png)
+![style_form](img/style_form2.png)
