@@ -45,3 +45,25 @@ Dengan Inputan sebagai berikut :
 ```
 
 ## 2). Cara membuat Unordered List
+
+Unordered List adalah list data yang tak terurut dengan menggunakan simbol-simbol pada item-nya.
+
+Berikut adalah hasil inputan nya :
+
+```html
+ <section id="unorder-list">
+        <h2>Unordered List</h2>
+        <ul type="square">
+            <li>Jaringan Komputer</li>
+            <li>Struktur data</li>
+            <li>Komputer & Masyarakat</li>
+            <li>Bisnis Elektronik</li>
+        </ul>
+    </section>
+</body>
+</html>
+```
+
+Dan outputnya :
+
+![membuat_unordered_list](img/pic2.png)
