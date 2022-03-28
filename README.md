@@ -67,3 +67,27 @@ Berikut adalah hasil inputan nya :
 Dan outputnya :
 
 ![membuat_unordered_list](img/pic2.png)
+
+## 3). Membuat Description List
+
+Description lIst adalah jenis list yang ditunjukan untuk membuat struktur yang berisi deskripsi arau penjelasan dalam HTML.
+
+Inputannya adalah :
+
+```html
+ <section id="unorder-list">
+        <h2>Description List</h2>
+        <dl>
+            <dt>FAKULTAS TEKNIK</dt>
+            <dd>Teknik Industri</dd>
+            <dd>Teknik Lingkungan</dd>
+            <dt>FAKULTAS EKONOMI dan BISNIS</dt>
+            <dd>Akuntansi</dd>
+            <dd>Manajemen</dd>
+            <dd>Bisnis Digital</dd>
+        </dl>
+    </section>
+```
+
+Dan outpot sebagai berikut :
+![membuat_description_list](img/pic3.png)
